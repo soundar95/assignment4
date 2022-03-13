@@ -1,4 +1,5 @@
 //QUESTION4
+//task1
 // Question-1
 var a1,a2,a3,a4;
 console.log(a1,a2,a3,a4);
@@ -52,7 +53,7 @@ var val14 = undefined;
 
 
 
-//question (2) 
+//task2
 //  Simple Programs todo for Operators
 // question-1
 let a = 3
