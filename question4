@@ -49,3 +49,136 @@ var val11 = -0;
 var val12 = NaN;
 var val13 =  null;
 var val14 = undefined;
+
+
+
+//question (2) 
+//  Simple Programs todo for Operators
+// question-1
+let a = 3
+let square = a**2
+console.log("square of a number:"+ square )
+
+// question-2 Swapping 2 numbers
+let b =4;
+let c =9;
+let temp = b;
+b = c;
+c = temp
+console.log(b,c);
+
+// question-3 Addition of 3 numbers
+let d = 1;
+let e = 2;
+let f = 3;
+console.log(d+e+f);
+
+//question-4 Celsius to Fahrenheit conversion
+let celsius=97;
+let feh=(celsius * 9/5)+32;
+console.log(feh);
+
+//question-5 Meter to miles
+let meter=1000;
+let miles=meter/1609;
+console.log(miles);
+
+//question-6 Pounds to kg
+let pounds=1;
+let kg=pounds/2.205;
+console.log(kg);
+
+//question-8 Calculate five test scores and print their average
+let scores=[10,100,23,200,78];
+let bb=0;
+for(let z=0;z<scores.length;z++){
+    bb+=scores[z];
+}
+console.log(bb/scores.length);
+
+
+// question-9 Power of any number x ^ y.
+let g = 5;
+let h = 10;
+let i = g**h;
+console.log(i);
+
+//question-10 Calculate Simple Interest
+let p=100,n=2,r=8;
+let si=(p*n*r)/100
+console.log(si);
+
+
+//question-11 Calculate area of an equilateral triangle
+let side=4;
+let A=((Math.sqrt(3))/4)*(side**2);
+console.log(A);
+
+//question-12 Area Of Isosceles Triangle
+let basE=5;
+let heigHt=8;
+let ArEa=basE*heigHt/2;
+console.log(ArEa);
+
+// question-13 Volume Of Sphere
+let radius = 4
+console.log((4/3)*Math.PI*(radius**3))
+
+// question-14 Volume Of Prism
+let base = 10;
+let height =20;
+let volume = base *height;
+console.log(volume);
+
+// question-15 Find area of a triangle.
+let height1 = 10;
+let base1 = 20;
+let area = ((base1 *height1)/2);
+console.log(area);
+
+
+//question16 Give the Actual cost and Sold cost, Calculate Discount Of Product
+let costPrice=100;
+let sellingPrice=80;
+let discount=costPrice-sellingPrice;
+console.log(discount);
+
+//question-17 Given their radius of a circle and find its diameter, circumference and area.
+let radius1 = 10;
+console.log("area:"+((Math.PI)*(radius1**2)));
+
+
+//question-18 all arithmetic operations.
+let num1 = 4;
+let num2 = 6;
+console.log(num1 + num2); // addition
+console.log(num1 - num2); //subtract
+console.log(num1 * num2); //multiply
+console.log(num1 ** num2); //power off
+console.log(num1 / num2); //Division
+console.log(num1 % num2); //remainder
+
+// question-19 asterisk pattern as shown below(No loop needed)
+console.log("*****");
+console.log("*****");
+console.log("*****");
+console.log("*****");
+console.log("*****");
+console.log("*****");
+
+
+//question-20 Calculate electricity bill
+let watts=1000;
+let days=30;
+let hour=1;
+let ratePerUnit=10;
+let totalBill=watts*days*hour*ratePerUnit;
+console.log(totalBill);
+
+//question-21 calculate CGPA
+let subjects=[88,77,54,96,59,66];
+let cgpa=0;
+for(let i=0;i<subjects.length;i++){
+    cgpa += subjects[i];
+}
+console.log(cgpa/subjects.length/10);
