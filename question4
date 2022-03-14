@@ -32,7 +32,7 @@ console.log(parseInt(val1));
 console.log(parseFloat(val1));
 
 // question-7
-//truthy values
+//truthy values 
 var bool = true;
 var val2 = "string";
 var val3 = 72;
