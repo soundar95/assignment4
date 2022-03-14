@@ -272,3 +272,48 @@ let friends = [
         }
         let found = dataHandling(friends1,"Jeff");
         console.log(found);
+//sort
+              const friends1=[
+            "Mari",
+            "MaryJane",
+            "CaptianAmerica",
+            "Munnabai",
+            "Jeff",
+            "AAK chandran"
+            ];
+        var friends2 = [
+            "Gabbar",
+            "Rajinikanth",
+            "Mass",
+            "Spiderman",
+            "Jeff",
+           "ET"
+            ];
+            
+            function dataHandling(input){
+            input.sort();
+            console.log(input);
+            }
+            var friends = friends1.concat(friends2);
+            dataHandling(friends);
+           let a= friends.slice(0,1);//first element
+           console.log(a);
+           let b=friends.slice(5,7);//middle element
+           console.log(b);
+           let c=friends.slice(-1);//last element
+           console.log(c);
+           friends.push("soundarrajan");//adding item to last index
+           console.log(friends);
+           let d=friends.unshift("raj");//adding item to the first index
+           console.log(friends); 
+
+
+           for(let i=0;i<friends.length;i++){
+               console.log("Mr "+ friends[i]);
+           }
+           let e="";
+           for(let i=0;i<friends.length;i++){
+            e+=friends[i]+",";
+        }
+    
+        console.log(e);
