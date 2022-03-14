@@ -183,3 +183,92 @@ for(let i=0;i<subjects.length;i++){
     cgpa += subjects[i];
 }
 console.log(cgpa/subjects.length/10);
+
+//task3
+//question-1
+let text=" ";
+for(let i=0;i<7;i++){
+    text +="#";
+    console.log(text);
+}
+//question-2
+var strArray= ["<option>Jazz</option>",
+"<option>Blues</option>",
+"<option>New Age</option>",
+"<option>Classical</option>",
+"<option>Opera</option>"];
+let x="";
+for(let i=0;i<strArray.length;i++){
+     x +=strArray[i];
+}
+document.getElementById("demo").innerHTML=x;
+
+//write a code to count the elements in the array . Don’t use length property
+var myarray=[11,22,33,44,55];
+let count =0;
+for(let x of myarray){
+    count++;
+} 
+console.log(count);
+
+
+//favourite foods
+let foods=[];
+foods.push("burger");
+foods.push("pizza");
+foods.push("sandwich");
+foods.push("pepsi");
+foods.push("idly");
+foods.push("dosa");
+foods.push("chococake");
+foods.push("chicken");
+foods.push("lollipop");
+foods.push("grill");
+foods.push("tandoori");
+foods.push("briyani");
+foods.push("popcorn");
+foods.push("mushroomgravy");
+foods.push("pups");
+foods.push("tea");
+foods.push("coffee");
+foods.push("fish");
+foods.push("mutton");
+foods.push("parotta");
+console.log(foods[4]);//5th fav food
+console.log(foods.length);//total food items
+
+let friends = [
+    "Mari",
+    "MaryJane",
+    "CaptianAmerica",
+    "Munnabai",
+    "Jeff",
+    "AAK chandran"
+    ];
+    function dataHandling(input){
+    for (var i = 0; i < 3; i++) {
+    console.log(friends[i])
+    }
+    }
+    dataHandling(friends);
+
+    //Find the person is ur friend or not.
+    const friends1=[
+        "Mari",
+        "MaryJane",
+        "CaptianAmerica",
+        "Munnabai",
+        "Jeff",
+        "AAK chandran"
+        ];
+        function dataHandling(input, name){
+        for (var i = 0; i < input.length; i++) {
+        if(name==input[i])
+        {
+            return "yes";
+        }
+       
+        }
+        }
+        let found = dataHandling(friends1,"Jeff");
+        console.log(found);
